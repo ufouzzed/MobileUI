@@ -445,7 +445,7 @@ function Flux:Window(text, bottom,mainclr)
 		Container.BackgroundTransparency = 1.000
 		Container.BorderSizePixel = 0
 		Container.Position = UDim2.new(0.321529746, 0, 0.0475206599, 0)
-		Container.Size = UDim2.new(0, 470, 0, 438)
+		Container.Size = UDim2.new(0, 410, 0, 340)
 		Container.CanvasSize = UDim2.new(0, 0, 0, 0)
 		Container.ScrollBarThickness = 5
 		Container.Visible = false

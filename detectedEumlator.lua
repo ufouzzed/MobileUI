@@ -185,7 +185,7 @@ function Flux:Window(text, bottom,mainclr)
 	
 	MakeDraggable(Drag,MainFrame)
 	MakeDraggable(LeftFrame,MainFrame)
-	MainFrame:TweenSize(UDim2.new(0, 593, 0, 430), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+	MainFrame:TweenSize(UDim2.new(0, 567, 0, 370), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 	
 	local uitoggled = false
 		_G.toggleUiHere = function()
@@ -196,7 +196,7 @@ function Flux:Window(text, bottom,mainclr)
 					until MainFrame.Size.Y.Offset <= 1
 					FluxLib.Enabled = false
 				else
-					MainFrame:TweenSize(UDim2.new(0, 593, 0, 430), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+					MainFrame:TweenSize(UDim2.new(0, 567, 0, 370), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 					repeat wait() 
 					until MainFrame.Size.Y.Offset > 1
 					FluxLib.Enabled = true
@@ -527,8 +527,8 @@ function Flux:Window(text, bottom,mainclr)
 			Button.Parent = Container
 			Button.BackgroundColor3 = Color3.fromRGB(64, 68, 75)
 			Button.ClipsDescendants = true
-			Button.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
-			Button.Size = UDim2.new(0, 457, 0, 43)
+			Button.Position = UDim2.new(0.388, 0, 00.728, 0)
+			Button.Size = UDim2.new(0, 329, 0, 43)
 			Button.AutoButtonColor = false
 			Button.Font = Enum.Font.SourceSans
 			Button.Text = ""
@@ -694,7 +694,7 @@ function Flux:Window(text, bottom,mainclr)
 					):Play()
 				end
 				coroutine.wrap(_G.changeButtonColor)()
-					Button:TweenSize(UDim2.new(0, 457, 0, 74), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+					Button:TweenSize(UDim2.new(0, 329, 0, 43), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
@@ -771,8 +771,8 @@ function Flux:Window(text, bottom,mainclr)
 			Toggle.Parent = Container
 			Toggle.BackgroundColor3 = Color3.fromRGB(64, 68, 75)
 			Toggle.ClipsDescendants = true
-			Toggle.Position = UDim2.new(0.110937506, 0, 0.67653507, 0)
-			Toggle.Size = UDim2.new(0, 457, 0, 43)
+			Toggle.Position = UDim2.new(0.39, 0, 0.404, 0)
+			Toggle.Size = UDim2.new(0, 329, 0, 43)
 			Toggle.AutoButtonColor = false
 			Toggle.Font = Enum.Font.SourceSans
 			Toggle.Text = ""
